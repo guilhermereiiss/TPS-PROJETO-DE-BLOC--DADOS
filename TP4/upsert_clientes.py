@@ -24,7 +24,6 @@ class Cliente(Base):
     endereco = Column(String(255))
 
 
-
 # UPSERT
 def upsert_clientes(json_path):
     with open(json_path, "r") as f:
